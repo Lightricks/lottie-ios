@@ -8,16 +8,26 @@
 import Foundation
 import QuartzCore
 
+public class OffscreenAnimationContainer: AnimationContainer {
+  public override func display() {
+    var newFrame: CGFloat = self.presentation()?.currentFrame ?? self.currentFrame
+    if respectAnimationFrameRate {
+      newFrame = floor(newFrame)
+    }
+    animationLayers.forEach( { $0.displayWithFrame(frame: newFrame, forceUpdates: true) })
+  }
+}
+
 /**
  The base animation container.
  
  This layer holds a single composition container and allows for animation of
  the currentFrame property.
  */
-final class AnimationContainer: CALayer {
-  
+public class AnimationContainer: CALayer {
+
   /// The animatable Current Frame Property
-  @NSManaged var currentFrame: CGFloat
+  @NSManaged public var currentFrame: CGFloat
   
   var imageProvider: AnimationImageProvider {
     get {
@@ -32,7 +42,7 @@ final class AnimationContainer: CALayer {
     layerImageProvider.reloadImages()
   }
   
-  var renderScale: CGFloat = 1 {
+  public var renderScale: CGFloat = 1 {
     didSet {
       animationLayers.forEach({ $0.renderScale = renderScale })
     }
@@ -41,7 +51,7 @@ final class AnimationContainer: CALayer {
   public var respectAnimationFrameRate: Bool = false
   
   /// Forces the view to update its drawing.
-  func forceDisplayUpdate() {
+  public func forceDisplayUpdate() {
     animationLayers.forEach( { $0.displayWithFrame(frame: currentFrame, forceUpdates: true) })
   }
   
@@ -49,14 +59,17 @@ final class AnimationContainer: CALayer {
     print("Lottie: Logging Animation Keypaths")
     animationLayers.forEach({ $0.logKeypaths(for: nil) })
   }
+
+  public func nodeProperties(for keyPath: AnimationKeypath) -> [AnyNodeProperty] {
+    return animationLayers.flatMap { $0.nodeProperties(for: keyPath) ?? [] }
+  }
   
-  func setValueProvider(_ valueProvider: AnyValueProvider, keypath: AnimationKeypath) {
+  public func setValueProvider(_ valueProvider: AnyValueProvider, keypath: AnimationKeypath) {
     for layer in animationLayers {
       if let foundProperties = layer.nodeProperties(for: keypath) {
         for property in foundProperties {
           property.setProvider(provider: valueProvider)
         }
-        layer.displayWithFrame(frame: presentation()?.currentFrame ?? currentFrame, forceUpdates: true)
       }
     }
   }
@@ -93,7 +106,7 @@ final class AnimationContainer: CALayer {
     return results
   }
 
-  var textProvider: AnimationTextProvider {
+  public var textProvider: AnimationTextProvider {
     get { return layerTextProvider.textProvider }
     set { layerTextProvider.textProvider = newValue }
   }
@@ -102,7 +115,8 @@ final class AnimationContainer: CALayer {
   fileprivate let layerImageProvider: LayerImageProvider
   fileprivate let layerTextProvider: LayerTextProvider
   
-  init(animation: Animation, imageProvider: AnimationImageProvider, textProvider: AnimationTextProvider) {
+  public init(animation: Animation, imageProvider: AnimationImageProvider,
+              textProvider: AnimationTextProvider) {
     self.layerImageProvider = LayerImageProvider(imageProvider: imageProvider, assets: animation.assetLibrary?.imageAssets)
     self.layerTextProvider = LayerTextProvider(textProvider: textProvider)
     self.animationLayers = []

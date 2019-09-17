@@ -8,7 +8,7 @@
 import Foundation
 import CoreGraphics
 /// A property of a node. The node property holds a provider and a container
-protocol AnyNodeProperty {
+public protocol AnyNodeProperty {
   
   /// Returns true if the property needs to recompute its stored value
   func needsUpdate(frame: CGFloat) -> Bool
