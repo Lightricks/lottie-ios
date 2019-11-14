@@ -82,6 +82,12 @@ final class ShapeRenderLayer: ShapeContainerLayer {
   override func draw(in ctx: CGContext) {
     if let path = renderer.outputPath {
       if !path.isEmpty {
+        if !Thread.isMainThread {
+          // When rendering in VideoEngine, we need to flip the path vertically.
+          let offset = bounds.height + position.y * 2
+          ctx.translateBy(x: 0, y: offset)
+          ctx.scaleBy(x: 1, y: -1)
+        }
         ctx.addPath(path)
       }
     }
