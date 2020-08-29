@@ -7,10 +7,10 @@
 //  Dream Big.
 
 #import <Foundation/Foundation.h>
-#import "LOTAnimationView_Compat.h"
-#import "LOTComposition.h"
-#import "LOTKeypath.h"
-#import "LOTValueDelegate.h"
+#import <Lottie/LOTAnimationView_Compat.h>
+#import <Lottie/LOTComposition.h>
+#import <Lottie/LOTKeypath.h>
+#import <Lottie/LOTValueDelegate.h>
 
 typedef void (^LOTAnimationCompletionBlock)(BOOL animationFinished);
 
