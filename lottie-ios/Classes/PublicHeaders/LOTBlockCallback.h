@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import "LOTValueDelegate.h"
+#import <Lottie/LOTValueDelegate.h>
 
 /*!
  @brief A block that is used to change a Color value at keytime, the block is called continuously for a keypath while the aniamtion plays.
