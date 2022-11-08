@@ -11,7 +11,6 @@
 		30A1F7F11F5E7F6300AA3682 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1F7F01F5E7F6300AA3682 /* CoreGraphics.framework */; };
 		30A1F7F31F5E7F6900AA3682 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1F7F21F5E7F6900AA3682 /* QuartzCore.framework */; };
 		30A1F7F71F5E811E00AA3682 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1F7F61F5E811E00AA3682 /* UIKit.framework */; };
-		30A1F7F91F5E81E200AA3682 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30A1F7F81F5E81E200AA3682 /* GLKit.framework */; };
 		48183C9C1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9D1E54E20B0039F121 /* CGGeometry+LOTAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 48183C9A1E54E20B0039F121 /* CGGeometry+LOTAdditions.h */; };
 		48183C9E1E54E20B0039F121 /* CGGeometry+LOTAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 48183C9B1E54E20B0039F121 /* CGGeometry+LOTAdditions.m */; };
@@ -698,7 +697,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30A1F7F91F5E81E200AA3682 /* GLKit.framework in Frameworks */,
 				30A1F7F71F5E811E00AA3682 /* UIKit.framework in Frameworks */,
 				30A1F7F31F5E7F6900AA3682 /* QuartzCore.framework in Frameworks */,
 				30A1F7F11F5E7F6300AA3682 /* CoreGraphics.framework in Frameworks */,
