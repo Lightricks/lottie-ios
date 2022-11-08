@@ -1,0 +1,32 @@
+name: CI
+
+on: [pull_request, push, workflow_dispatch]
+
+jobs:
+  test:
+    name: Build and Test
+    runs-on: macos-12
+
+    steps:
+    - name: Setup Xcode
+      uses: maxim-lobanov/setup-xcode@v1.2.1
+      with:
+        xcode-version: '13.4.1'
+
+    - name: Checkout repo
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        lfs: true
+
+    - name: Build and Run Tests
+      run: fastlane scan
+      env:
+        SCAN_DEVICE: iPhone 12
+        SCAN_SCHEME: Lottie
+
+    - name: Upload result bundle
+      uses: actions/upload-artifact@v2
+      with:
+        name: result_bundle.xcresult
+        path: result_bundle.xcresult
