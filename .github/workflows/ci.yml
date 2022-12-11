@@ -11,7 +11,7 @@ jobs:
     - name: Setup Xcode
       uses: maxim-lobanov/setup-xcode@v1.2.1
       with:
-        xcode-version: '13.4.1'
+        xcode-version: '14.1'
 
     - name: Checkout repo
       uses: actions/checkout@v2
@@ -22,8 +22,8 @@ jobs:
     - name: Build and Run Tests
       run: fastlane scan
       env:
-        SCAN_DEVICE: iPhone 12
-        SCAN_SCHEME: Lottie
+        SCAN_DEVICE: iPhone 14
+        SCAN_SCHEME: Lottie-Legacy
 
     - name: Upload result bundle
       uses: actions/upload-artifact@v2
