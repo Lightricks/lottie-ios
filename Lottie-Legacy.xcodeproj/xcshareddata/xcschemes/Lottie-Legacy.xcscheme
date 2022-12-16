@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-               BuildableName = "Lottie.framework"
-               BlueprintName = "Lottie_iOS"
-               ReferencedContainer = "container:Lottie.xcodeproj">
+               BuildableName = "Lottie-Legacy.framework"
+               BlueprintName = "Lottie-Legacy_iOS"
+               ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D831E39D291AAC5D00463017"
-               BuildableName = "LottieTests.xctest"
-               BlueprintName = "LottieTests"
-               ReferencedContainer = "container:Lottie.xcodeproj">
+               BuildableName = "Lottie-LegacyTests.xctest"
+               BlueprintName = "Lottie-LegacyTests"
+               ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_iOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BuildableName = "Lottie-Legacy.framework"
+            BlueprintName = "Lottie-Legacy_iOS"
+            ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -70,9 +70,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_iOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BuildableName = "Lottie-Legacy.framework"
+            BlueprintName = "Lottie-Legacy_iOS"
+            ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

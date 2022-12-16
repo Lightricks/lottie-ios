@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8C5378FE1FB471D100C1BC65"
-               BuildableName = "Lottie.framework"
-               BlueprintName = "Lottie_tvOS"
-               ReferencedContainer = "container:Lottie.xcodeproj">
+               BuildableName = "Lottie-Legacy.framework"
+               BlueprintName = "Lottie-Legacy_tvOS"
+               ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,9 +44,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C5378FE1FB471D100C1BC65"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_tvOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BuildableName = "Lottie-Legacy.framework"
+            BlueprintName = "Lottie-Legacy_tvOS"
+            ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -60,9 +60,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8C5378FE1FB471D100C1BC65"
-            BuildableName = "Lottie.framework"
-            BlueprintName = "Lottie_tvOS"
-            ReferencedContainer = "container:Lottie.xcodeproj">
+            BuildableName = "Lottie-Legacy.framework"
+            BlueprintName = "Lottie-Legacy_tvOS"
+            ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

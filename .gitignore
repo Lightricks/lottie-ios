@@ -19,4 +19,9 @@ Example/lottie-ios.xcodeproj/xcuserdata
 Example/lottie-ios.xcodeproj/xcuserdata
 Example-Swift/Pods/Pods.xcodeproj/xcuserdata/
 Example-Swift/Lottie-Example-Swift.xcodeproj/xcuserdata/
+
+## User settings
+xcuserdata/
+
+## macOS
 .DS_Store

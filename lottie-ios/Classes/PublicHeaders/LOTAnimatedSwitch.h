@@ -6,7 +6,7 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie/LOTAnimatedControl.h>
+#import <Lottie-Legacy/LOTAnimatedControl.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
