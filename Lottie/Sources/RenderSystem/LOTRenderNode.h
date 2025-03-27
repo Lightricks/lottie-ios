@@ -6,7 +6,7 @@
 //
 //
 
-#import "LOTAnimatorNode.h"
+#import <Lottie-Legacy/LOTAnimatorNode.h>
 
 @interface LOTRenderNode : LOTAnimatorNode
 

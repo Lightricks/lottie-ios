@@ -6,8 +6,8 @@
 //
 //
 
-#import "LOTAnimatorNode.h"
-#import "LOTShapePath.h"
+#import <Lottie-Legacy/LOTAnimatorNode.h>
+#import <Lottie-Legacy/LOTShapePath.h>
 
 @interface LOTPathAnimator : LOTAnimatorNode
 

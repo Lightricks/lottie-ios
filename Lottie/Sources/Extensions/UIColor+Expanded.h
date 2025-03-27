@@ -1,4 +1,4 @@
-#import "LOTPlatformCompat.h"
+#import <Lottie-Legacy/LOTPlatformCompat.h>
 
 // From http://github.com/ars/uicolor-utilities
 #define CLAMP(val,min,max)    MIN(MAX(val,min),max)

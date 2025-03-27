@@ -6,7 +6,7 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import "LOTPlatformCompat.h"
+#import <Lottie-Legacy/LOTPlatformCompat.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

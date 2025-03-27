@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTKeyframe.h"
-#import "LOTValueDelegate.h"
+#import <Lottie-Legacy/LOTKeyframe.h>
+#import <Lottie-Legacy/LOTValueDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -6,8 +6,8 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import "LOTAnimatorNode.h"
-#import "LOTShapeStar.h"
+#import <Lottie-Legacy/LOTAnimatorNode.h>
+#import <Lottie-Legacy/LOTShapeStar.h>
 
 @interface LOTPolystarAnimator : LOTAnimatorNode
 

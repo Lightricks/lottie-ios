@@ -8,8 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <QuartzCore/QuartzCore.h>
-#import "LOTPlatformCompat.h"
-#import "LOTBezierData.h"
+#import <Lottie-Legacy/LOTPlatformCompat.h>
+#import <Lottie-Legacy/LOTBezierData.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

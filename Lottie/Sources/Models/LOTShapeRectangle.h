@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTKeyframe.h"
+#import <Lottie-Legacy/LOTKeyframe.h>
 
 @interface LOTShapeRectangle : NSObject
 

@@ -6,7 +6,7 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import "LOTRenderNode.h"
+#import <Lottie-Legacy/LOTRenderNode.h>
 
 @interface LOTRenderGroup : LOTRenderNode
 

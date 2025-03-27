@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTValueInterpolator.h"
-#import "LOTValueDelegate.h"
+#import <Lottie-Legacy/LOTValueInterpolator.h>
+#import <Lottie-Legacy/LOTValueDelegate.h>
 
 NS_ASSUME_NONNULL_BEGIN
 @interface LOTNumberInterpolator : LOTValueInterpolator

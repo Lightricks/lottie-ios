@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTPlatformCompat.h"
-#import "LOTKeyframe.h"
+#import <Lottie-Legacy/LOTPlatformCompat.h>
+#import <Lottie-Legacy/LOTKeyframe.h>
 
 @class LOTShapeGroup;
 @class LOTMask;

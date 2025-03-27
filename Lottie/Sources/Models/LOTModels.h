@@ -9,20 +9,20 @@
 #ifndef LOTModels_h
 #define LOTModels_h
 
-#import "LOTKeyframe.h"
-#import "LOTComposition.h"
-#import "LOTLayer.h"
-#import "LOTMask.h"
-#import "LOTShapeCircle.h"
-#import "LOTShapeFill.h"
-#import "LOTShapeGroup.h"
-#import "LOTShapePath.h"
-#import "LOTShapeRectangle.h"
-#import "LOTShapeStroke.h"
-#import "LOTShapeTransform.h"
-#import "LOTShapeTrimPath.h"
-#import "LOTLayerGroup.h"
-#import "LOTAsset.h"
-#import "LOTShapeGradientFill.h"
+#import <Lottie-Legacy/LOTKeyframe.h>
+#import <Lottie-Legacy/LOTComposition.h>
+#import <Lottie-Legacy/LOTLayer.h>
+#import <Lottie-Legacy/LOTMask.h>
+#import <Lottie-Legacy/LOTShapeCircle.h>
+#import <Lottie-Legacy/LOTShapeFill.h>
+#import <Lottie-Legacy/LOTShapeGroup.h>
+#import <Lottie-Legacy/LOTShapePath.h>
+#import <Lottie-Legacy/LOTShapeRectangle.h>
+#import <Lottie-Legacy/LOTShapeStroke.h>
+#import <Lottie-Legacy/LOTShapeTransform.h>
+#import <Lottie-Legacy/LOTShapeTrimPath.h>
+#import <Lottie-Legacy/LOTLayerGroup.h>
+#import <Lottie-Legacy/LOTAsset.h>
+#import <Lottie-Legacy/LOTShapeGradientFill.h>
 
 #endif /* LOTModels_h */

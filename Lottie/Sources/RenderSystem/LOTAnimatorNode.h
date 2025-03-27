@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "LOTPlatformCompat.h"
-#import "LOTBezierPath.h"
-#import "LOTKeypath.h"
-#import "LOTValueDelegate.h"
+#import <Lottie-Legacy/LOTPlatformCompat.h>
+#import <Lottie-Legacy/LOTBezierPath.h>
+#import <Lottie-Legacy/LOTKeypath.h>
+#import <Lottie-Legacy/LOTValueDelegate.h>
 
 extern NSInteger indentation_level;
 @interface LOTAnimatorNode : NSObject
