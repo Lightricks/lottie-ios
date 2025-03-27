@@ -6,7 +6,7 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie-Legacy/LOTValueInterpolator.h>
+#import <LottieLegacy/LOTValueInterpolator.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

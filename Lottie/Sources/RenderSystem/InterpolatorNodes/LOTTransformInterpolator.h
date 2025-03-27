@@ -7,11 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <Lottie-Legacy/LOTNumberInterpolator.h>
-#import <Lottie-Legacy/LOTPointInterpolator.h>
-#import <Lottie-Legacy/LOTSizeInterpolator.h>
-#import <Lottie-Legacy/LOTKeyframe.h>
-#import <Lottie-Legacy/LOTLayer.h>
+#import <LottieLegacy/LOTNumberInterpolator.h>
+#import <LottieLegacy/LOTPointInterpolator.h>
+#import <LottieLegacy/LOTSizeInterpolator.h>
+#import <LottieLegacy/LOTKeyframe.h>
+#import <LottieLegacy/LOTLayer.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

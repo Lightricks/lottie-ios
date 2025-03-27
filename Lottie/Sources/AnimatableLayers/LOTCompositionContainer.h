@@ -6,8 +6,8 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie-Legacy/LOTLayerContainer.h>
-#import <Lottie-Legacy/LOTAssetGroup.h>
+#import <LottieLegacy/LOTLayerContainer.h>
+#import <LottieLegacy/LOTAssetGroup.h>
 
 @interface LOTCompositionContainer : LOTLayerContainer
 

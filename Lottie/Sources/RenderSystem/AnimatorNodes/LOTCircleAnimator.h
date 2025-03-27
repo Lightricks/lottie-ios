@@ -6,8 +6,8 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie-Legacy/LOTAnimatorNode.h>
-#import <Lottie-Legacy/LOTShapeCircle.h>
+#import <LottieLegacy/LOTAnimatorNode.h>
+#import <LottieLegacy/LOTShapeCircle.h>
 
 @interface LOTCircleAnimator : LOTAnimatorNode
 

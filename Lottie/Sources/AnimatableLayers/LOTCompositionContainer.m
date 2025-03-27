@@ -6,15 +6,15 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie-Legacy/LOTCompositionContainer.h>
-#import <Lottie-Legacy/LOTAsset.h>
-#import <Lottie-Legacy/CGGeometry+LOTAdditions.h>
-#import <Lottie-Legacy/LOTHelpers.h>
-#import <Lottie-Legacy/LOTValueInterpolator.h>
-#import <Lottie-Legacy/LOTAnimatorNode.h>
-#import <Lottie-Legacy/LOTRenderNode.h>
-#import <Lottie-Legacy/LOTRenderGroup.h>
-#import <Lottie-Legacy/LOTNumberInterpolator.h>
+#import <LottieLegacy/LOTCompositionContainer.h>
+#import <LottieLegacy/LOTAsset.h>
+#import <LottieLegacy/CGGeometry+LOTAdditions.h>
+#import <LottieLegacy/LOTHelpers.h>
+#import <LottieLegacy/LOTValueInterpolator.h>
+#import <LottieLegacy/LOTAnimatorNode.h>
+#import <LottieLegacy/LOTRenderNode.h>
+#import <LottieLegacy/LOTRenderGroup.h>
+#import <LottieLegacy/LOTNumberInterpolator.h>
 
 @implementation LOTCompositionContainer {
   NSNumber *_frameOffset;

@@ -24,21 +24,21 @@ FOUNDATION_EXPORT const unsigned char LottieVersionString[];
 #include <TargetConditionals.h>
 
 #if TARGET_OS_IPHONE || TARGET_OS_SIMULATOR
-#import <Lottie-Legacy/LOTAnimationTransitionController.h>
-#import <Lottie-Legacy/LOTAnimatedSwitch.h>
-#import <Lottie-Legacy/LOTAnimatedControl.h>
+#import <LottieLegacy/LOTAnimationTransitionController.h>
+#import <LottieLegacy/LOTAnimatedSwitch.h>
+#import <LottieLegacy/LOTAnimatedControl.h>
 #endif
 
 #if TARGET_OS_IPHONE || TARGET_OS_SIMULATOR
-#import <Lottie-Legacy/LOTCacheProvider.h>
+#import <LottieLegacy/LOTCacheProvider.h>
 #endif
 
-#import <Lottie-Legacy/LOTAnimationView.h>
-#import <Lottie-Legacy/LOTAnimationCache.h>
-#import <Lottie-Legacy/LOTComposition.h>
-#import <Lottie-Legacy/LOTBlockCallback.h>
-#import <Lottie-Legacy/LOTInterpolatorCallback.h>
-#import <Lottie-Legacy/LOTValueCallback.h>
-#import <Lottie-Legacy/LOTValueDelegate.h>
+#import <LottieLegacy/LOTAnimationView.h>
+#import <LottieLegacy/LOTAnimationCache.h>
+#import <LottieLegacy/LOTComposition.h>
+#import <LottieLegacy/LOTBlockCallback.h>
+#import <LottieLegacy/LOTInterpolatorCallback.h>
+#import <LottieLegacy/LOTValueCallback.h>
+#import <LottieLegacy/LOTValueDelegate.h>
 
 #endif /* Lottie_h */

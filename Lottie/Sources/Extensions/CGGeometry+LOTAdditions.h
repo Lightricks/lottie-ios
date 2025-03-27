@@ -1,5 +1,5 @@
 
-#import <Lottie-Legacy/LOTPlatformCompat.h>
+#import <LottieLegacy/LOTPlatformCompat.h>
 
 #import <CoreGraphics/CoreGraphics.h>
 

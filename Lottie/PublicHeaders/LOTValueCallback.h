@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
-#import <Lottie-Legacy/LOTValueDelegate.h>
+#import <LottieLegacy/LOTValueDelegate.h>
 
 /*!
  @brief LOTColorValueCallback is a container for a CGColorRef. This container is a LOTColorValueDelegate that always returns the colorValue property to its animation delegate.

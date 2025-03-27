@@ -9,9 +9,9 @@
 #ifndef LOTHelpers_h
 #define LOTHelpers_h
 
-#import <Lottie-Legacy/UIColor+Expanded.h>
-#import <Lottie-Legacy/CGGeometry+LOTAdditions.h>
-#import <Lottie-Legacy/LOTBezierPath.h>
+#import <LottieLegacy/UIColor+Expanded.h>
+#import <LottieLegacy/CGGeometry+LOTAdditions.h>
+#import <LottieLegacy/LOTBezierPath.h>
 
 #define ENABLE_DEBUG_LOGGING NO
 #define ENABLE_DEBUG_SHAPES NO

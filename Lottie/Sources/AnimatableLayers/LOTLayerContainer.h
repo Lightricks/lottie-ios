@@ -6,11 +6,11 @@
 //  Copyright © 2017 Airbnb. All rights reserved.
 //
 
-#import <Lottie-Legacy/LOTPlatformCompat.h>
-#import <Lottie-Legacy/LOTLayer.h>
-#import <Lottie-Legacy/LOTLayerGroup.h>
-#import <Lottie-Legacy/LOTKeypath.h>
-#import <Lottie-Legacy/LOTValueDelegate.h>
+#import <LottieLegacy/LOTPlatformCompat.h>
+#import <LottieLegacy/LOTLayer.h>
+#import <LottieLegacy/LOTLayerGroup.h>
+#import <LottieLegacy/LOTKeypath.h>
+#import <LottieLegacy/LOTValueDelegate.h>
 
 @class LOTValueCallback;
 

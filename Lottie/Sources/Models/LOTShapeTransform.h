@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <CoreGraphics/CoreGraphics.h>
 #import <QuartzCore/QuartzCore.h>
-#import <Lottie-Legacy/LOTKeyframe.h>
+#import <LottieLegacy/LOTKeyframe.h>
 
 @interface LOTShapeTransform : NSObject
 
