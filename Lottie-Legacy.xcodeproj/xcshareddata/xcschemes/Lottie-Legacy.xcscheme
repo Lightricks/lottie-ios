@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1520"
+   LastUpgradeVersion = "1010"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-               BuildableName = "Lottie-Legacy.framework"
-               BlueprintName = "Lottie-Legacy_iOS"
+               BlueprintIdentifier = "34B15F96ACFD3F6CED1ABC31"
+               BuildableName = "LottieLegacy.framework"
+               BlueprintName = "Lottie-Legacy"
                ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D831E39D291AAC5D00463017"
-               BuildableName = "Lottie-LegacyTests.xctest"
+               BlueprintIdentifier = "4E2C53F0488CF2615FE58178"
+               BuildableName = "LottieLegacyTests.xctest"
                BlueprintName = "Lottie-LegacyTests"
                ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
             </BuildableReference>
@@ -53,9 +53,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie-Legacy.framework"
-            BlueprintName = "Lottie-Legacy_iOS"
+            BlueprintIdentifier = "34B15F96ACFD3F6CED1ABC31"
+            BuildableName = "LottieLegacy.framework"
+            BlueprintName = "Lottie-Legacy"
             ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -69,9 +69,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "62CA59B71E3C173B002D7188"
-            BuildableName = "Lottie-Legacy.framework"
-            BlueprintName = "Lottie-Legacy_iOS"
+            BlueprintIdentifier = "34B15F96ACFD3F6CED1ABC31"
+            BuildableName = "LottieLegacy.framework"
+            BlueprintName = "Lottie-Legacy"
             ReferencedContainer = "container:Lottie-Legacy.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
