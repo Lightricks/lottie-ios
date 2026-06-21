@@ -9,7 +9,7 @@ let lottieLegacyTarget = Target.target(
   product: .staticFramework,
   productName: "LottieLegacy",
   bundleId: "com.airbnb.Lottie",
-  deploymentTargets: .iOS("12.0"),
+  deploymentTargets: .iOS("15.0"),
   infoPlist: "Lottie/Supporting Files/Info.plist",
   sources: ["Lottie/Sources/**"],
   headers: .headers(public: "Lottie/PublicHeaders/**", private: "Lottie/Sources/**"),
@@ -26,7 +26,7 @@ let lottieLegacyTestsTarget = Target.target(
   product: .uiTests,
   productName: "LottieLegacyTests",
   bundleId: "com.lightricks.LottieTests",
-  deploymentTargets: .iOS("12.0"),
+  deploymentTargets: .iOS("15.0"),
   sources: "LottieTests/**",
   dependencies: [.target(lottieLegacyTarget)]
 )
